@@ -11,7 +11,6 @@ fps = 60
 
 r = 100
 
-
 def brez_circle(screen):
     x, y = 0, r
     delta = 3 - 2 * r
@@ -30,7 +29,6 @@ def brez_circle(screen):
             y -= 1
             delta += 4 * (x - y) + 10
         x += 1
-
 
 while running:
     clock.tick(fps)  # Устанавливаем FPS Держим цикл на правильной скорости
