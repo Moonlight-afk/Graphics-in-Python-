@@ -1,6 +1,4 @@
-import numpy as np
 import pygame
-import math
 
 pygame.init()  # Запускаем pygame
 screen = pygame.display.set_mode((500, 500))  # Устанавливаем размер экрана
